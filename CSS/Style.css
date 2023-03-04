@@ -1,0 +1,120 @@
+body{
+    
+    background: linear-gradient(#2a83be, #0097cc) ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div{
+    
+    text-align: center;
+}
+
+.layout{
+    flex-direction: column;
+}
+
+header{
+    height: 120;
+    margin: 0;
+    
+}
+
+section{
+    display: flex;
+    min-height: calc(100vh - 100px);
+}
+
+nav{
+    flex-grow: 5;
+
+}
+
+
+article{
+    flex-grow: 1;
+    height: auto;
+}
+/*titulo*/
+h1{
+    margin: 0;
+    background-color: #0D3862; 
+    text-align: center; 
+    color: white; 
+    height: 100px; 
+    line-height: 100px;
+}
+
+/* editando botoes */
+
+.bnt-botoes{
+    background-color: #39B54A ;
+    margin: 0 0 0 0;
+}
+
+.bnt-botoes .botoes{
+    background-color: #39B54A;
+    border: none;
+    margin: 10 20 10 20;
+    padding: 20 20 30 30;
+    width: 220px;
+    text-underline-position: left;
+    color: white;
+    font-size: 14px;
+    border-radius: 30px; 
+    cursor: pointer;
+}
+.botoes:hover{
+    background-color: #278440;
+    
+}
+
+/* botão de pesquisa */
+
+.box-search{
+    background: #fff;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 0 0 20 0 ;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#pesquisar{
+    border: none;
+    background: none;
+    outline: none; 
+    margin: 0 30 0 0;
+    
+}
+
+
+/* parte de dados e graficos*/
+#GrafD{
+    margin: 100 200 0 200;
+    
+}
+.GP{
+    margin: 100 200 0 200;
+}
+.GL{
+    margin: 100 200 0 200;
+}
+table{
+    margin: 100 1000 0 200;
+}
+td{
+    border: 3px solid rgba(255, 255, 255 ,0.6);
+    background-color: aqua;
+    height: 30px;
+    text-align: center;
+    margin: 100;
+    padding: 20;
+    width: auto;
+    
+}
